@@ -9,9 +9,18 @@
 </head>
 <body>
     <div class="container">
-        <div id="text">
+        <div class="welcome-section">
+        <div class="text-section">
             <h1>Welcome to the Calculator</h1>
-            <h2>Giovana Marques Silva</h2>
+        <img src="assets/img/calculadora.png" alt="calculator img" class="hero-img">
+           
+        <a href="#calculator" class="down-arrow" aria-label="Ir para calculadora">
+        
+        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 5v14M19 12l-7 7-7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </a>
+        </div>
         </div>
 
         <div id="calculator">
@@ -42,7 +51,11 @@
             <input type="button" value="0" class="operator" onclick="addValue('0')" />
             <input type="button" value="=" class="equal" onclick="calculate()" />
         </div>
+        <div class="text-section">
+          <h2> By Giovana Marques Silva</h2>
+        </div>
     </div>
     <script src="js/script.js"></script>
+    <script>document.documentElement.style.scrollBehavior = 'smooth';</script>
 </body>
 </html>
