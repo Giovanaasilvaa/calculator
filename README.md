@@ -49,13 +49,14 @@ The **Calculator** is a simple web application built with **HTML, CSS, and JavaS
 │
 ├── 📁 assets/                # Static files (media and styles)
 │   ├── 📁 images/            # All images used
+|   └── 📁 style.css          # CSS Styles
 │
-├── style.css                # CSS Styles
+               
 │
-├── 📁 js/                   # JavaScript scripts (can be modularized later)
+├── 📁 js/                    # JavaScript scripts (can be modularized later)
 │   └── script.js
 │
-└── index.html               # Main page
+└── index.html                 # Main page
 </pre>
 
 ---
